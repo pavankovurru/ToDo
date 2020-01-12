@@ -18,6 +18,7 @@
 		CCC598AF23C8F4C0004E7B5B /* ToDoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC598AE23C8F4C0004E7B5B /* ToDoUITests.swift */; };
 		CCC598BD23C90A0B004E7B5B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CCC598BC23C90A0B004E7B5B /* .gitignore */; };
 		CCC598BF23C90AA3004E7B5B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC598BE23C90AA3004E7B5B /* Constants.swift */; };
+		CCC598C123CAD2FC004E7B5B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC598C023CAD2FC004E7B5B /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		CCC598B023C8F4C0004E7B5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCC598BC23C90A0B004E7B5B /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		CCC598BE23C90AA3004E7B5B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CCC598C023CAD2FC004E7B5B /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +109,10 @@
 			children = (
 				CCC5988923C8F4BF004E7B5B /* AppDelegate.swift */,
 				CCC5988B23C8F4BF004E7B5B /* SceneDelegate.swift */,
-				CCC5988D23C8F4BF004E7B5B /* ToDoListViewController.swift */,
-				CCC5988F23C8F4BF004E7B5B /* Main.storyboard */,
-				CCC5989523C8F4C0004E7B5B /* Assets.xcassets */,
-				CCC5989723C8F4C0004E7B5B /* LaunchScreen.storyboard */,
+				CCC598C323CAD315004E7B5B /* Controller */,
+				CCC598C223CAD303004E7B5B /* Model */,
+				CCC598C423CAD328004E7B5B /* View */,
+				CCC598C523CAD380004E7B5B /* SuppoprtingFiles */,
 				CCC5989A23C8F4C0004E7B5B /* Info.plist */,
 				CCC5989223C8F4BF004E7B5B /* ToDo.xcdatamodeld */,
 				CCC598BC23C90A0B004E7B5B /* .gitignore */,
@@ -135,6 +137,39 @@
 				CCC598B023C8F4C0004E7B5B /* Info.plist */,
 			);
 			path = ToDoUITests;
+			sourceTree = "<group>";
+		};
+		CCC598C223CAD303004E7B5B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CCC598C023CAD2FC004E7B5B /* Item.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CCC598C323CAD315004E7B5B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CCC5988D23C8F4BF004E7B5B /* ToDoListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CCC598C423CAD328004E7B5B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CCC5988F23C8F4BF004E7B5B /* Main.storyboard */,
+				CCC5989723C8F4C0004E7B5B /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CCC598C523CAD380004E7B5B /* SuppoprtingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				CCC5989523C8F4C0004E7B5B /* Assets.xcassets */,
+			);
+			path = SuppoprtingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +308,7 @@
 				CCC5988E23C8F4BF004E7B5B /* ToDoListViewController.swift in Sources */,
 				CCC5988A23C8F4BF004E7B5B /* AppDelegate.swift in Sources */,
 				CCC5988C23C8F4BF004E7B5B /* SceneDelegate.swift in Sources */,
+				CCC598C123CAD2FC004E7B5B /* Item.swift in Sources */,
 				CCC5989423C8F4BF004E7B5B /* ToDo.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

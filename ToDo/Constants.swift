@@ -7,3 +7,10 @@
 //
 
 import Foundation
+
+
+struct Constants {
+    
+    static let appName = "ToDo"
+    static let cellIdentifierToDoList = "ReusableCell"
+}
